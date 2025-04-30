@@ -1,5 +1,5 @@
 {
-    "name": "markt/testmagick",
+    "name": "marktaborosi/stackoverflow-79562669",
     "description": "PHP project demonstrating image merging using GD and Imagick with perspective transformation.",
     "type": "project",
     "require": {
