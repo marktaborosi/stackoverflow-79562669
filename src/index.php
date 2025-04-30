@@ -25,10 +25,10 @@ function mergeWithPerspective(string $basePath, string $bannerPath, string $outp
 
     // Map corners of the banner to positions on the truck's black panel
     $controlPoints = [
-        0, 0,        496, 145,  // top-left
-        230, 0,      715, 163,  // top-right
-        0, 300,      495, 407,  // bottom-left
-        230, 300,    712, 375   // bottom-right
+        0, 0,        496, 145,
+        230, 0,      715, 163,
+        0, 300,      495, 407,
+        230, 300,    712, 375
     ];
 
     $banner->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
