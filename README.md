@@ -1,3 +1,4 @@
+
 # PHP Imagick Perspective Merge
 
 This public project demonstrates how to apply a banner image onto the side of a truck using PHP and Imagick with perspective distortion. The goal is to answer the following Stack Overflow question:
@@ -14,13 +15,27 @@ This public project demonstrates how to apply a banner image onto the side of a 
 ## 📦 Installation (Docker)
 
 You can use docker for this
-```docker-compose up --build```
+```bash
+docker-compose up --build
+```
 
 Then you can reach it via:
-``localhost:8000``
+```
+localhost:8000
+```
 
 This will create the output file at `processed/output.png` showing the banner perspective-mapped onto the truck.
 
+## 🖼️ Demonstration
+
+### Truck Image (Base)
+![Truck](src/source-images/4.jpg)
+
+### Banner to be Applied
+![Banner](src/source-images/71jnk8L5-vL._SX679_.jpg)
+
+### Final Output (Perspective Merged)
+![Output](src/processed/output.png)
 
 ## 📝 Author
 
