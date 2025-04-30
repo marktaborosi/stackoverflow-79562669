@@ -1,0 +1,21 @@
+{
+    "name": "markt/testmagick",
+    "description": "PHP project demonstrating image merging using GD and Imagick with perspective transformation.",
+    "type": "project",
+    "require": {
+        "ext-imagick": "*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markt\\Testmagick\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Taborosi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}

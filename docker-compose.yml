@@ -1,0 +1,11 @@
+services:
+  web:
+    image: php:8.3-apache
+    container_name: php83_web
+    ports:
+      - "8000:80"
+    volumes:
+      - ./src:/var/www/html
+    build:
+      context: .
+      dockerfile: Dockerfile
